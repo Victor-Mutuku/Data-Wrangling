@@ -49,6 +49,8 @@ This project focuses on **exploring, cleaning, and preprocessing a Netflix datas
 - Removed rows with `release_year` prior to 1997.
 - Dropped rows with missing `title`, `release_year`, or `date_added`.
 - Reset index after cleaning.
+  
+---
 
 ### 6. Publishing Cleaned Dataset
 - Saved the cleaned dataset as CSV:  
@@ -74,4 +76,4 @@ This project focuses on **exploring, cleaning, and preprocessing a Netflix datas
 - Dataset free of missing values in critical fields (`title`, `release_year`, `date_added`)  
 - Logical errors resolved (e.g., `date_added` before `release_year` removed)  
 - Dataset ready for visualization or predictive modeling
-
+  
