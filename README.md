@@ -51,5 +51,27 @@ This project focuses on **exploring, cleaning, and preprocessing a Netflix datas
 - Reset index after cleaning.
 
 ### 6. Publishing Cleaned Dataset
-- Saved the cleaned dataset as CSV:
-```python
+- Saved the cleaned dataset as CSV:  
+  
+## Skills Demonstrated
+
+- **Data Analysis & Exploration:** Pandas, NumPy  
+- **Data Cleaning & Preprocessing:** Handling missing values, duplicates, and anomalies  
+- **Data Transformation:** Datetime conversion, extracting numeric values from text  
+- **Error Checking & Validation:** Logical consistency between fields, anomaly detection  
+- **Workflow & Pipeline Management:** End-to-end preprocessing for large datasets  
+- **Data Publishing:** Saving clean datasets for reproducibility  
+
+---
+
+## Outputs & Visualizations
+
+- **Cleaned Dataset CSV:** `cleaned_netflix.csv`  
+
+**Features Added:**  
+- `duration_value` (numeric duration)  
+- `duration_unit` (unit of duration: min or seasons)  
+- Dataset free of missing values in critical fields (`title`, `release_year`, `date_added`)  
+- Logical errors resolved (e.g., `date_added` before `release_year` removed)  
+- Dataset ready for visualization or predictive modeling
+
